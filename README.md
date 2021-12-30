@@ -1,4 +1,5 @@
 
-### Teach Me Something 👋
-I’m currently learning go
-- How to reach me: kilicalperen@icloud.com
+### Hello 👋
+
+- How can you reach me: kilicalperen@icloud.com - [in/alperenkilic](https://www.linkedin.com/in/alperenkilic/)
+
