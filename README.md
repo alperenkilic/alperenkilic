@@ -9,6 +9,11 @@
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
+- [How to Upload an Arduino Sketch from Linux Terminal](https://alperenkilic.medium.com/how-to-upload-an-arduino-sketch-from-linux-terminal-5cd99f0700fc?source=rss-4d9e76345234------2)
+- [Remote.it: Nedir Nasıl Kullanılır](https://alperenkilic.medium.com/remote-it-nedir-nas%C4%B1l-kullan%C4%B1l%C4%B1r-23a4caab5a63?source=rss-4d9e76345234------2)
+- [Secure Keyboard Entry Nedir? Güvenli Klavye Girişi Nedir ?](https://alperenkilic.medium.com/secure-keyboard-entry-nedir-g%C3%BCvenli-klavye-giri%C5%9Fi-nedir-5398fee618a5?source=rss-4d9e76345234------2)
+- [IOTA — Golang’de Bir Garip Constantlar](https://alperenkilic.medium.com/iota-golangde-bir-garip-constantlar-9e6a38619de0?source=rss-4d9e76345234------2)
+- [Neden MacBook ?](https://alperenkilic.medium.com/neden-macbook-923010fa0b07?source=rss-4d9e76345234------2)
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
