@@ -30,13 +30,13 @@ const skillCategories = [
 
 export function Skills() {
   return (
-    <section className="py-20 px-6" id="skills">
+    <section className="py-20 px-6 bg-zinc-900/50" id="skills">
       <div className="max-w-4xl mx-auto">
         <div className="flex items-center gap-3 mb-12">
-          <div className="p-2 bg-primary/10 rounded-lg">
-            <Code className="w-6 h-6 text-primary" />
+          <div className="p-2 bg-blue-500/10 rounded-lg">
+            <Code className="w-6 h-6 text-blue-500" />
           </div>
-          <h2 className="text-3xl font-bold">Yetenekler</h2>
+          <h2 className="text-3xl font-bold text-white">Yetenekler</h2>
         </div>
         
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -45,20 +45,20 @@ export function Skills() {
             return (
               <div 
                 key={index}
-                className="bg-card rounded-xl p-6 border border-border hover:border-primary/30 transition-colors"
+                className="bg-zinc-900 rounded-xl p-6 border border-zinc-800 hover:border-blue-500/30 transition-colors"
               >
                 <div className="flex items-center gap-3 mb-4">
-                  <div className="p-2 bg-primary/10 rounded-lg">
-                    <Icon className="w-5 h-5 text-primary" />
+                  <div className="p-2 bg-blue-500/10 rounded-lg">
+                    <Icon className="w-5 h-5 text-blue-500" />
                   </div>
-                  <h3 className="font-semibold">{category.title}</h3>
+                  <h3 className="font-semibold text-white">{category.title}</h3>
                 </div>
                 
                 <div className="flex flex-wrap gap-2">
                   {category.skills.map((skill, idx) => (
                     <span 
                       key={idx}
-                      className="px-3 py-1 text-sm bg-secondary text-secondary-foreground rounded-full"
+                      className="px-3 py-1 text-sm bg-zinc-800 text-zinc-300 rounded-full"
                     >
                       {skill}
                     </span>

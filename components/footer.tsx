@@ -17,18 +17,18 @@ const GithubIcon = () => (
 
 export function Footer() {
   return (
-    <footer className="py-12 px-6 border-t border-border">
+    <footer className="py-12 px-6 border-t border-zinc-800">
       <div className="max-w-4xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-center md:text-left">
-            <p className="font-semibold text-lg">Alperen Kilic</p>
-            <p className="text-muted-foreground text-sm">Ar-Ge Muhendisi</p>
+            <p className="font-semibold text-lg text-white">Alperen Kilic</p>
+            <p className="text-zinc-400 text-sm">Ar-Ge Muhendisi</p>
           </div>
           
           <div className="flex items-center gap-4">
             <a 
               href="mailto:kilicalperen@icloud.com"
-              className="p-3 bg-card rounded-lg border border-border hover:border-primary/50 transition-colors"
+              className="p-3 bg-zinc-900 rounded-lg border border-zinc-800 hover:border-blue-500/50 transition-colors text-zinc-200"
               aria-label="Email"
             >
               <Mail className="w-5 h-5" />
@@ -37,7 +37,7 @@ export function Footer() {
               href="https://linkedin.com/in/alperenkilic"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-3 bg-card rounded-lg border border-border hover:border-primary/50 transition-colors"
+              className="p-3 bg-zinc-900 rounded-lg border border-zinc-800 hover:border-blue-500/50 transition-colors text-zinc-200"
               aria-label="LinkedIn"
             >
               <LinkedinIcon />
@@ -46,7 +46,7 @@ export function Footer() {
               href="https://github.com/alperenkilic"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-3 bg-card rounded-lg border border-border hover:border-primary/50 transition-colors"
+              className="p-3 bg-zinc-900 rounded-lg border border-zinc-800 hover:border-blue-500/50 transition-colors text-zinc-200"
               aria-label="GitHub"
             >
               <GithubIcon />
@@ -55,7 +55,7 @@ export function Footer() {
               href="https://www.alperenkilic.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-3 bg-card rounded-lg border border-border hover:border-primary/50 transition-colors"
+              className="p-3 bg-zinc-900 rounded-lg border border-zinc-800 hover:border-blue-500/50 transition-colors text-zinc-200"
               aria-label="Website"
             >
               <Globe className="w-5 h-5" />
@@ -63,8 +63,8 @@ export function Footer() {
           </div>
         </div>
         
-        <div className="mt-8 pt-8 border-t border-border text-center">
-          <p className="text-sm text-muted-foreground">
+        <div className="mt-8 pt-8 border-t border-zinc-800 text-center">
+          <p className="text-sm text-zinc-500">
             2024 Alperen Kilic. Tum haklari saklidir.
           </p>
         </div>

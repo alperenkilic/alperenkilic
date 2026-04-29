@@ -61,30 +61,30 @@ export function Experience() {
     <section className="py-20 px-6" id="experience">
       <div className="max-w-4xl mx-auto">
         <div className="flex items-center gap-3 mb-12">
-          <div className="p-2 bg-primary/10 rounded-lg">
-            <Briefcase className="w-6 h-6 text-primary" />
+          <div className="p-2 bg-blue-500/10 rounded-lg">
+            <Briefcase className="w-6 h-6 text-blue-500" />
           </div>
-          <h2 className="text-3xl font-bold">Is Deneyimi</h2>
+          <h2 className="text-3xl font-bold text-white">Is Deneyimi</h2>
         </div>
         
         <div className="space-y-8">
           {experiences.map((exp, index) => (
             <div 
               key={index}
-              className="relative pl-8 pb-8 border-l-2 border-border last:pb-0"
+              className="relative pl-8 pb-8 border-l-2 border-zinc-800 last:pb-0"
             >
-              <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-background border-2 border-primary" />
+              <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-zinc-950 border-2 border-blue-500" />
               
-              <div className="bg-card rounded-xl p-6 border border-border hover:border-primary/30 transition-colors">
+              <div className="bg-zinc-900 rounded-xl p-6 border border-zinc-800 hover:border-blue-500/30 transition-colors">
                 <div className="flex flex-wrap items-start justify-between gap-4 mb-4">
                   <div>
-                    <h3 className="text-xl font-semibold">{exp.role}</h3>
-                    <p className="text-primary font-medium">{exp.company}</p>
+                    <h3 className="text-xl font-semibold text-white">{exp.role}</h3>
+                    <p className="text-blue-500 font-medium">{exp.company}</p>
                   </div>
                   <span className={`px-3 py-1 text-sm rounded-full ${
                     exp.current 
-                      ? "bg-accent/10 text-accent border border-accent/20" 
-                      : "bg-secondary text-secondary-foreground"
+                      ? "bg-green-500/10 text-green-500 border border-green-500/20" 
+                      : "bg-zinc-800 text-zinc-400"
                   }`}>
                     {exp.period}
                   </span>
@@ -92,8 +92,8 @@ export function Experience() {
                 
                 <ul className="space-y-2">
                   {exp.responsibilities.map((resp, idx) => (
-                    <li key={idx} className="text-muted-foreground text-sm leading-relaxed flex gap-2">
-                      <span className="text-primary mt-1.5 shrink-0">-</span>
+                    <li key={idx} className="text-zinc-400 text-sm leading-relaxed flex gap-2">
+                      <span className="text-blue-500 mt-1.5 shrink-0">-</span>
                       <span>{resp}</span>
                     </li>
                   ))}
